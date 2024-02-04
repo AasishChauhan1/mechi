@@ -139,6 +139,7 @@
                 </select>
             </div>
 
+            
             <div class="field space rounded">
                 <span class="fa fa-lock rounded"></span>
                 <input type="number" name="rollno" required placeholder="Roll No" value="{{$student->rollno}}">
