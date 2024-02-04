@@ -119,7 +119,7 @@
 </style>
 <div class="bg-img mb-2">
     <div class="container d-flex mt-3 justify-content-center align-item-center">
-        <h4 class="mt-3" style="font-family: 'Dancing Script', cursive; color:white; font-size:3rem;">Student Detail Form</h4>
+        <h4 class="mt-3" style="font-family: 'Dancing Script', cursive; color:white; font-size:3rem;">Edit Your details</h4>
     </div>
     <div class="content mt-3">
         <form action=" /update/{{$student->id}}" method="post">

@@ -114,8 +114,9 @@
     }
 </style>
 <div class=" bg-img mb-2">
-    <div class="container d-flex mt-3 justify-content-center align-item-center">
+    <div class="container d-flex flex-row mt-3 justify-content-center align-item-center">
         <h4 class="mt-3" style="font-family: 'Dancing Script', cursive; color:white; font-size:3rem;">Student Detail Form</h4>
+        <a href="/list"><button type="submit" class="btn btn-warning mt-4 ms-4">View Students</button></a>
     </div>
 
     <div class="  animate__zoomInDown content mt-3">
