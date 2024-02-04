@@ -15,6 +15,7 @@ table th {
 }
 
 .mask-custom {
+
   background: rgba(24, 24, 16, .2);
   border-radius: 2em;
   backdrop-filter: blur(25px);
@@ -23,7 +24,7 @@ table th {
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
 }
 </style>
-<section class="intro">
+<section class="intro m-2">
   <div class="bg-image h-100" style="background-image: url(https://mdbootstrap.com/img/Photos/new-templates/glassmorphism-article/img7.jpg);">
     <div class="mask d-flex align-items-center h-100">
       <div class="container">

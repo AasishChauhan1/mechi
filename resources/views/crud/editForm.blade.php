@@ -12,7 +12,7 @@
 
     .bg-img {
         background: url(https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg);
-        height: 150vh;
+        height: 90vh;
         background-size: cover;
         background-position: center;
     }
@@ -117,7 +117,7 @@
         margin-top: 30px;
     }
 </style>
-<div class="bg-img">
+<div class="bg-img mb-2">
     <div class="container d-flex mt-3 justify-content-center align-item-center">
         <h4 class="mt-3" style="font-family: 'Dancing Script', cursive; color:white; font-size:3rem;">Student Detail Form</h4>
     </div>
@@ -137,9 +137,7 @@
                     <option  {{$s->class==$student->class?'selected':''}}> {{$student->class}} </option>
                     @endforeach
                 </select>
-            </div>
-
-            
+            </div>           
             <div class="field space rounded">
                 <span class="fa fa-lock rounded"></span>
                 <input type="number" name="rollno" required placeholder="Roll No" value="{{$student->rollno}}">

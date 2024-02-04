@@ -12,7 +12,7 @@
 
     .bg-img {
         background: url(https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg);
-        height: 150vh;
+        height: 90vh;
         background-size: cover;
         background-position: center;
     }
@@ -113,11 +113,12 @@
         background: linear-gradient(to left, #0000ff 0%, #6666ff 100%);
     }
 </style>
-<div class="bg-img">
+<div class=" bg-img mb-2">
     <div class="container d-flex mt-3 justify-content-center align-item-center">
         <h4 class="mt-3" style="font-family: 'Dancing Script', cursive; color:white; font-size:3rem;">Student Detail Form</h4>
     </div>
-    <div class="content mt-3">
+
+    <div class="  animate__zoomInDown content mt-3">
         <form action="/add" method="post">
       
         @csrf

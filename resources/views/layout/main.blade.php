@@ -12,4 +12,5 @@
     @yield('editForm')
 </body>
 @include('layout.script')
+@include('layout.footer')
 </html>
